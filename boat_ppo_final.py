@@ -455,7 +455,7 @@ def load_data_and_create_interpolators():
     global F_velocity, F_SWH, F_MWP, F_Desal
     
     try:
-        data = pd.read_excel('Palau інтерpolated_b7000.xlsx')
+        data = pd.read_excel('Palau_interpolated_b7000.xlsx')
         print("Excel data loaded successfully.")
         
         # Extract required data
